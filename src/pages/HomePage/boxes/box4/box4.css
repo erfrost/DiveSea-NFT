@@ -1,0 +1,90 @@
+.Box4 {
+    padding: 75px 65px 40px 65px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+.box4-title {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 45px;
+    color: #141416;
+}
+.box4-items {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 35px;
+}
+.box4-items div {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+}
+
+@media screen and (max-width: 1250px) {
+    .box4-items {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+@media screen and (max-width: 725px) {
+    .box4-items {
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 25px;
+    }
+}
+@media screen and (max-width: 600px) {
+    .box4-title {
+        font-size: 32px;
+    }
+    .filter-btn {
+        padding: 5px 13px 5px 13px;
+        gap: 4px;
+    }
+}
+@media screen and (max-width: 550px) {
+    .Box4 .table-btn {
+        align-self: center;
+    }
+}
+@media screen and (max-width: 510px) {
+    .box4-title {
+        font-size: 24px;
+    }
+    .filter-btn {
+        font-size: 12px;
+        font-weight: 400;
+    }
+    .filter-icon {
+        max-width: 20px;
+        max-height: 20px;
+    }
+}
+@media screen and (max-width: 475px) {
+    .box4-items {
+        grid-template-columns: 1fr;
+    }
+    .weekly-image {
+        min-width: auto;
+        height: auto;
+    }
+}
+@media screen and (max-width: 450px) {
+    .Box4 {
+        padding: 75px 25px 40px 25px;
+    }
+    .Filter {
+        width: 100%;
+        flex-direction: column !important;
+    }
+    .filter-btn {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        font-weight: 600;
+        font-size: 15px;
+    }
+    .filter-icon {
+        max-width: none;
+        max-height: none;
+    }
+}

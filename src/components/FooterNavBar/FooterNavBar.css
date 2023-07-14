@@ -1,0 +1,41 @@
+.FooterNavBar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 75px;
+}
+.footerNavBar-link {
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #B9B9B9 !important;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+.footerNavBar-link:hover {
+    color: white !important;
+}
+
+@media screen and (max-width: 1075px) {
+    .FooterNavBar {
+        gap: 50px;
+    }
+}
+@media screen and (max-width: 975px) {
+    .FooterNavBar {
+        gap: 25px;
+    }
+}
+@media screen and (max-width: 555px) {
+    .footerNavBar-link {
+        font-size: 13px;
+    }
+}
+@media screen and (max-width: 475px) {
+    .FooterNavBar {
+        flex-direction: column;
+    }
+    .footerNavBar-link {
+        font-size: 15px;
+    }
+}

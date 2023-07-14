@@ -1,0 +1,119 @@
+.weekly-item {
+    position: relative;
+    padding: 15px;
+    background-color: white;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+.weekly-item:first-child {
+    margin-left: 35px;
+}
+.weekly-item:last-child {
+    margin-right: 35px;
+}
+.weekly-timer {
+    position: absolute;
+    top: 25px;
+    right: 25px;
+    background-color: #1C1D2059;
+    border-radius: 7px;
+    padding: 7px 10px 7px 10px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 10px;
+    color: white;
+}
+.weekly-titles {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+    color: #141416;
+}
+.weekly-title-1 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+.weekly-title-1:hover {
+    color: #797979;
+}
+.weekly-price-title {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 10px;
+    color: #94A3B8;
+    letter-spacing: 0.08px;
+}
+.weeklt-price {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+}
+.weekly-image {
+    max-width: none;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+.weekly-btn {
+    text-align: center;
+    background-color: #141416;
+    color: white;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    border-radius: 8px;
+    padding: 13px 20px 13px 20px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+.weekly-btn:hover {
+    background-color: #3f3f3f;
+}
+@media screen and (max-width: 1200px) {
+    .weekly-image {
+        min-width: 200px;
+        height: 200px;
+    }
+}
+@media screen and (max-width: 900px) {
+    .weekly-image {
+        min-width: 175px;
+        height: 175px;
+    }
+    .weekly-btn {
+        font-size: 10px;
+    }
+    .weekly-item:first-child {
+        margin-left: 25px;
+    }
+    .weekly-item:last-child {
+        margin-right: 25px;
+    }
+}
+@media screen and (max-width: 550px) {
+    .weekly-image {
+        min-width: 125px;
+        height: 125px;
+    }
+    .weekly-titles {
+        gap: 5px;
+    }
+    .weekly-btn {
+        font-size: 8px;
+        padding: 8px 8px 8px 8px;
+    }
+}
+@media screen and (max-width: 475px){
+    .weekly-btn {
+        font-size: 10px;
+        padding: 13px 20px 13px 20px;
+    }
+}

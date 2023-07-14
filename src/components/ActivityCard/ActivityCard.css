@@ -1,0 +1,87 @@
+.ActivityCard {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    padding: 15px;
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 18.782058715820312px 12.52137279510498px 64.1535415649414px 0px rgba(97, 97, 97, 0.25);
+}
+.activityCard-top {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.activityCard-name-1 {
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    font-size: 17px;
+    font-weight: 600;
+}
+.activityCard-name-2 {
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+.activityCard-name-2:hover {
+    color: #797979;
+}
+.activityCard-sale-title {
+    color: #14A760;
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+}
+.activityCard-price {
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+}
+.activityCard-timestamp {
+    color:#D2D2D2;
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+}
+.acivityCard-bottom {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.activityCard-stats-item {
+    display: flex;
+    flex-direction: column;
+    align-items: 10px;
+}
+.activityCard-stats-item-title-1 {
+    color: #828282;
+    font-family: 'Poppins', sans-serif;
+    font-size: 11px;
+    font-weight: 400;
+}
+.activityCard-stats-item-title-2 {
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+}
+
+@media screen and (max-width: 760px) {
+    .activityCard-timestamp {
+        font-size: 10px;
+    }
+}

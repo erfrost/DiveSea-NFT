@@ -1,0 +1,129 @@
+.Box3 {
+    padding: 75px 65px 40px 65px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #141416;
+    gap: 50px;
+}
+.box3-title {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 45px;
+}
+th {
+    font-family: 'Poppins', sans-serif !important;
+    font-weight: 500 !important;
+    font-size: 22px !important;
+    letter-spacing: 1%;
+    color: #93989A !important;
+    text-align: center !important;
+}
+.table-1 {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+.table-1-titles {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+.table-1-title-1 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 28px;
+}
+.table-1-title-2 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 23px;
+    color: #64748B;
+}
+.table-price {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 25px;
+}
+.table-procents-plus {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 25px;
+    color: #10C352;
+}
+.table-procents-minus {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 25px;
+    color: #E23333;
+}
+.table-default {
+    width: 100%;
+    display: block;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+}
+
+@media screen and (max-width: 1150px) {
+    th {
+        font-size: 17px !important;
+    }
+    .table-1-title-1 {
+        font-size: 20px;
+    }
+    .table-1-title-2 {
+        font-size: 15px;
+    }
+    .table-price {
+        font-size: 19px;
+    }
+    .table-procents-minus, .table-procents-plus {
+        font-size: 19px;
+    }
+    .table-default {
+        font-size: 19px;
+    }
+}
+@media screen and (max-width: 510px) {
+    .Box3 {
+        gap: 25px;
+    }
+    .box3-title {
+        font-size: 24px;
+    }
+}
+@media screen and (max-width: 450px) {
+    .Box3 {
+        padding: 75px 25px 40px 25px;
+    }
+}
+@media screen and (max-width: 390px) {
+    th {
+        padding: 12px !important;
+    }
+    th:first-child {
+        text-align: start !important;
+    }
+    th:last-child {
+        text-align: end !important;
+    }
+    td {
+        padding: 10px !important;
+    }
+    .table-avatar {
+        max-width: 45px;
+        max-height: 45px;
+    }
+    .table-1 {
+        gap: 5px;
+    }
+    .table-1-title-1 {
+        font-size: 15px; 
+    }
+    .table-1-title-2 {
+        font-size: 12px;
+    }
+}

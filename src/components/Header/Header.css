@@ -1,0 +1,109 @@
+.Header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 65px 40px 65px;
+}
+.header-left {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 40px;
+}
+.header-right {
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
+.header-input {
+    width: 348.45px !important;
+    border-radius: 16px !important;
+    background-color: #EDEDED !important;
+    border: none !important;
+    padding-left: 60px !important;
+    height: 100% !important;
+    min-height: 100% !important;
+    max-height: 100% !important;
+    padding-top: 15px !important;
+    padding-bottom: 15px !important;
+    font-family: 'Poppins', sans-serif;
+}
+.header-input::placeholder {
+    color: #C2C3CB !important;
+    font-family: 'Poppins', sans-serif;
+}
+.header-input:focus-visible {
+    border: none !important;
+    box-shadow: none !important;
+}
+.header-input-icon {
+    margin-left: 10px;
+    margin-top: 5px;
+}
+.header-btn {
+    height: 100% !important;
+    border-radius: 16px !important;
+    padding: 16px 24px 16px 24px !important;
+    background-color: #141416 !important;
+    text-transform: uppercase;
+    color: white !important;
+    font-weight: 600;
+    font-size: 16px !important;
+    min-width: auto !important;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out !important;
+}
+.header-btn:hover {
+    background-color: #3f3f3f !important;
+}
+.header-mobile-title {
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    font-size: 21px;
+}
+
+@media screen and (max-width: 1400px) {
+    .header-input {
+        width: 290px !important;
+    }
+}   
+@media screen and (max-width: 1225px) {
+    .header-input {
+        padding-top: 0 !important;
+        padding-bottom: 0 !important;
+    }
+    .NavBar, .header-right, .header-left {
+        gap: 25px !important;
+    }
+    .navbar-link {
+        font-size: 14px;
+    }
+    .header-btn {
+        font-size: 14px !important;
+    }
+}   
+@media screen and (max-width: 1050px) {
+    .header-input {
+       width: 175px !important;
+    }
+}   
+@media screen and (max-width: 925px) {
+    .header-input {
+       width: 135px !important;
+       font-size: 14px !important;
+    }
+    .header-input-icon {
+        margin-top: 0 !important;
+    }
+    .header-btn {
+        font-size: 12px;
+        padding: 11px 19px 11px 19px !important;
+    }
+}   
+@media screen and (max-width:450px) {
+    .Header {
+        padding: 40px 25px 40px 25px;
+    }
+}   

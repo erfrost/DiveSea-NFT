@@ -1,0 +1,15 @@
+.NavBar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 40px;
+}
+.link {
+    text-decoration: none !important;
+    color: black;
+}
+.navbar-link {
+    text-transform: uppercase;
+    color: #606060;
+    font-weight: 500;
+}

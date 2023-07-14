@@ -1,0 +1,222 @@
+.css-pv22qu {
+    border-radius: 18px !important;
+    border: 2px solid black !important;
+    margin-top: 10% !important;
+}
+.css-qlig70 {
+    padding: 25px 10px !important;
+    display: flex;
+    flex-direction: column;
+}
+.buyModal-title-1 {
+    color: black;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+.buyModal-title-2 {
+    color: #888888;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+.BuyModal {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 25px;
+}
+.buyModal-list {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+}
+.buyModal-list-item {
+    width: 100%;
+    padding: 20px;
+    border-radius: 11px;
+    background-color: white;
+    box-shadow: -5.85199499130249px 11.70398998260498px 20.25690269470215px 0px rgba(16, 16, 16, 0.15);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.buyModal-item-title-1 {
+    color: black;
+    font-size: 17px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+}
+.buyModal-item-title-2 {
+    color: #9C9C9C;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+.buyModal-price {
+    color: black;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+}
+.buyModal-payment {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+}
+.buyModal-payment-title {
+    padding-left: 15px;
+    color: black;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+.buyModal-input-box {
+    width: 100%;
+    height: 71px;
+    display: flex;
+    flex-direction: row;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+.css-42b2qy {
+    max-width: 40%;
+    height: 100% !important;
+}
+.css-iohxn1 {
+    right: 25% !important;
+    color: white !important;
+}
+.buyModal-select {
+    height: 100% !important;
+    border-radius: 18px 0px 0px 18px !important;
+    background-color: black !important;
+    color: white;
+    font-size: 20px !important;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    text-align: center !important;
+    outline-offset: 0 !important;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+.buyModal-select:hover {
+    background-color: #3f3f3f !important;
+}
+.buyModal-select:focus-visible {
+    border: none !important;
+    box-shadow: none !important;
+    z-index: initial !important;
+}
+.buyModal-input {
+    flex-grow: 1;
+    height: 100% !important;
+}
+.buyModal-input {
+    border-radius: 0 18px 18px 0 !important;
+    border: none !important;
+}
+.buyModal-input:focus-visible {
+    border: none !important;
+    box-shadow: none !important;
+    color: black;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+}
+.buyModal-submit-btn {
+    width: 100%;
+    padding: 25px;
+    background-color: black;
+    border-radius: 18px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+.buyModal-submit-btn:hover {
+    background-color: #3f3f3f;
+}
+.buyModal-submit-btn-title {
+    color: white;
+    font-size: 17px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+
+@media screen  and (max-width: 550px){
+    .buyModal-avatar {
+        width: 40px;
+        height: 40px;
+    }
+    .buyModal-item-title-1 {
+        font-size: 14px;
+    }
+    .buyModal-item-title-2 {
+        font-size: 12px;
+    }
+    .buyModal-price {
+        font-size: 18px;
+    }
+    .buyModal-input-box {
+        height: 60px;
+    }
+    .buyModal-submit-btn {
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+    .css-1u2cvaz {
+        padding-left: 50px !important;
+        padding-right: 50px !important;
+    }
+    .css-pv22qu {
+        margin-top: 33% !important;
+    }
+}
+@media screen  and (max-width: 480px){
+    .css-iohxn1 {
+        right: 20% !important;
+    }
+}
+@media screen  and (max-width: 420px){
+    .css-iohxn1 {
+        display: none !important;
+    }
+    .buyModal-select {
+        padding: 0 10px !important;
+    }
+}
+@media screen  and (max-width: 410px){
+    .buyModal-list-item {
+        padding: 10px;
+    }
+    .buyModal-item-title-1 {
+        font-size: 12px;
+    }
+    .buyModal-item-title-2 {
+        font-size: 9px;
+    }
+    .buyModal-avatar {
+        width: 35px;
+        height: 35px;
+    }
+    .buyModal-title-1, .buyModal-payment-title {
+        font-size: 16px;
+    }
+    .buyModal-title-2 {
+        font-size: 12px;
+    }
+}
+@media screen  and (max-width: 330px){
+    .buyModal-item-title-2 {
+        font-size: 7px;
+    }
+}

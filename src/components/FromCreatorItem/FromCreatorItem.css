@@ -1,0 +1,42 @@
+.FromCreatorItem {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 7px;
+    border-radius: 17px;
+    padding: 14px;
+    background: white;
+    box-shadow: 17.452444076538086px 11.63496208190918px 59.612003326416016px 0px rgba(97, 97, 97, 0.25);
+}
+.fromCreator-name {
+    color: #141416;
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+}
+.fromCreator-nft-title {
+    color: #141416;
+    font-size: 17px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+.fromCreator-item-footer {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.fromCreator-item-price {
+    color: #141416;
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+}
+.fromCreator-follow-count {
+    color: #888888;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 13px;
+}

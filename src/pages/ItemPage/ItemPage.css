@@ -1,0 +1,323 @@
+.ItemPage {
+    display: flex;
+    flex-direction: column;
+    transition: all 0.3s;
+}
+.ItemPage-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 100px;
+    padding: 75px 65px 75px 65px;
+}
+.itemPage-info {
+    width: 100%;
+    height: 612px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 55px;
+    padding: 25px;
+    background-color: #FAFAFA;
+    border-radius: 24.423px;
+    box-shadow: 17.560976028442383px 17.560976028442383px 61.05675506591797px 0px rgba(0, 0, 0, 0.12);
+}
+.itemPage-description {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    max-width: 50%;
+}
+.itemPage-title-1 {
+    color: #292B39;
+    font-size: 51px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+.itemPage-title-2 {
+    max-width: 65%;
+    color: #888888B2;
+    font-size: 19px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+.itemPage-autors {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.itemPage-autors-item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+.autor-title-1 {
+    color: #8D8D8D;
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+.autor-title-2 {
+    color: black;
+    font-size: 26px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+}
+.itmePage-price {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.itemPage-price-title {
+    color: #8C8C8C;
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+.itemPage-price {
+    color: #292B39;
+    font-size: 33px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+.itemPage-timer-title-1 {
+    color: #8D8D8D;
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+.itemPage-timer-title-2 {
+    color: black;
+    font-size: 19px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+.itemPage-buyBtn {
+    width: 100%;
+    background-color: #141416;
+    border-radius: 20px;
+    padding: 25px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+.itemPage-buyBtn:hover {
+    background-color: #3f3f3f;
+}
+.itemPage-buyBtn-title {
+    color: white;
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+}
+.from-creator-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 50px;
+}
+.from-creator-title {
+    color: #C3C3C3;
+    font-size: 31px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+.from-creator-list {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+}
+
+@media screen and (max-width: 1250px) {
+    .itemPage-title-1 {
+        font-size: 36px;
+    }
+    .itemPage-title-2, .autor-title-1, .itemPage-price-title,.itemPage-timer-title-1 {
+        font-size: 15px;
+    }
+    .autor-title-2 {
+        font-size: 18px;
+    }
+    .itemPage-autor-avatar {
+        width: 50px;
+        height: 50px;
+    }
+    .itemPage-price {
+        font-size: 24px;
+    }
+    .itemPage-timer-title-2 {
+        font-size: 16px;
+    }
+    .itemPage-description {
+        max-width: none;
+    }
+}
+@media screen and (max-width: 1130px) {
+    .itemPage-info {
+        height: 450px;
+    }
+    .itemPage-image {
+        width: 100%;
+        height: 100%;
+    }
+    .itemPage-title-1 {
+        font-size: 26px;
+    }
+    .itemPage-title-2 {
+        max-width: none;
+        font-size: 13px;
+    }
+}
+@media screen and (max-width: 965px) {
+    .itemPage-info {
+        height: 375px;
+        gap: 25px;
+    }
+    .itemPage-buyBtn {
+        padding: 15px 0;
+    }
+    .itemPage-buyBtn img {
+        width: 15px;
+        height: 15px;
+    }
+    .itemPage-buyBtn-title {
+        font-size: 14px;
+    }
+}
+@media screen and (max-width: 850px) {
+    .ItemPage-content {
+        gap: 50px;
+    }
+    .from-creator-list {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .itemPage-title-1 {
+        font-size: 20px;
+    }
+    .itemPage-title-2 {
+        font-size: 12px;
+    }
+    .itemPage-autor-avatar {
+        width: 30px;
+        height: 30px;
+    }
+    .autor-title-1 {
+        font-size: 12px;
+    }    
+    .autor-title-2 {
+        font-size: 11px;
+    }
+    .itemPage-price-title {
+        font-size: 12px;
+    }
+    .itemPage-price {
+        font-size: 18px;
+    }
+}
+@media screen and (max-width: 775px) {
+    .itemPage-info {
+        height: auto;
+        flex-direction: column;
+    }
+    .itemPage-image {
+        width: 100%;
+        height: 100%;
+    }
+    .itemPage-description {
+        gap: 25px;
+    }
+    .itemPage-title-1 {
+        font-size: 32px;
+    }
+    .itemPage-title-2 {
+        font-size: 14px;
+    }
+    .itemPage-autors {
+        justify-content: flex-start;
+        gap: 50px;
+    }
+    .autor-title-1 {
+        font-size: 15px;
+    }
+    .autor-title-2 {
+        font-size: 14px;
+    }
+    .itemPage-price-title {
+        font-size: 15px;
+    }
+    .itemPage-price {
+        font-size: 26px;
+    }
+}
+@media screen  and (max-width: 575px) {
+    .from-creator-list {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+@media screen  and (max-width: 475px) {
+    .itemPage-autors {
+        gap: 20px;
+    }
+}
+@media screen  and (max-width: 450px) {
+    .ItemPage-content {
+        padding: 75px 25px 75px 25px;
+    }
+    .itemPage-title-1 {
+        font-size: 26px;
+    }
+    .itemPage-title-2 {
+        font-size: 13px;
+    }
+}
+@media screen  and (max-width: 400px) {
+    .from-creator-list {
+        grid-template-columns: 1fr;
+    }
+    .fromCreator-image {
+        width: 100%;
+    }
+}
+@media screen  and (max-width: 375px) {
+    .ItemPage-content {
+        padding: 75px 25px 75px 25px;
+    }
+    .itemPage-price {
+        font-size: 16px;
+    }
+    .itemPage-title-2 {
+        font-size: 12px;
+    }
+    .itemPage-price-title {
+        font-size: 11px;
+    }
+    .itemPage-timer-title-1 {
+        font-size: 11px;
+    }
+    .itemPage-timer-title-2 {
+        font-size: 11px;
+    }
+    .autor-title-1 {
+        font-size: 12px;
+    }
+    .autor-title-2 {
+        font-size: 11px;
+    }
+}

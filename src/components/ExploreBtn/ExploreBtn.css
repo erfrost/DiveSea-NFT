@@ -1,0 +1,14 @@
+.table-btn {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    align-self: flex-end;
+    cursor: pointer;
+}
+.table-btn-title {
+    color: #ACADB9;
+    font-family: 'Poppins';
+    font-size: 18px;
+    font-weight: 500;
+}

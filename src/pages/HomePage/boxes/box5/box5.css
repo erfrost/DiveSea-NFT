@@ -1,0 +1,230 @@
+.Box5 {
+    padding: 75px 65px 40px 65px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+}
+hr {
+    border-color: #CBCBCB !important;
+}
+.box5-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+}
+.box5-titles {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 50px;
+}
+.box5-title-1 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 45px;
+    color: #C5C5C5;
+    white-space: nowrap;
+}
+.box5-title-2 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 45px;
+    color: #18181B;
+}
+.list-icon {
+    width: 20px !important;
+    height: 20px !important;   
+}
+.box5-btn {
+    padding: 18px 18px 18px 18px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    background-color: black;
+    border-radius: 12px;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+.box5-btn:hover {
+    background-color: #3f3f3f;
+}
+.box5-btn svg path {
+    fill: white;
+}
+.box5-images-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box5-images {
+    padding: 25px 100px 25px 100px;
+    position: relative;
+}
+.box5-images-main {
+    width: 322px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 25px;
+    background-color: white;
+    border-radius: 16px;
+    padding: 20px;
+    box-shadow: 10px 10px 50px 0px #1414161A;
+}
+.box5-images-main-title {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 19px;
+    color: #1A202C;
+}
+.new-bid {
+    position: absolute;
+    top: -25px;
+    right: -100px;
+    width: 325.64px;
+    padding: 20px;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    box-shadow: 10px 10px 50px 0px #1414161A;
+}
+.new-bid-info {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+.new-bid-title-1 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    color: #141416;
+}
+.new-bid-title-2 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 12px;
+    color: #141416;
+}
+.new-bid-timestamp {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    color: #949494;
+}
+
+@media screen and (max-width: 1350px) {
+    .box5-images-main {
+        width: 275px;
+        padding: 13px;
+    }
+    .SellersItems-list {
+        width: 100%;
+    }
+    .SellersItem {
+        gap: 0 !important;
+        width: 100%;
+    }
+    .half-block-absolute {
+        padding: 13px !important;
+        left: -50px !important;
+        width: 275px !important;
+    }
+    .new-bid {
+        padding: 13px;
+        width: auto;
+        gap: 5px;
+        right: -45px;
+    }
+    .new-bid-info {
+        gap: 5px;
+    }
+}
+@media screen and (max-width: 975px) {
+    .box5-content {
+        width: 100%;
+    }
+    .box5-images {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 25px;
+        padding: 0;
+    }
+    .half-block-absolute {
+        display: none !important;
+    }
+    .new-bid {
+        display: none;
+    }
+}
+@media screen and (max-width: 800px) {
+    .box5-titles {
+        gap: 20px;
+    }
+    .box5-content {
+        gap: 25px;
+    }
+}
+@media screen and (max-width: 760px) {
+    .box5-content {
+        flex-direction: column;
+    }
+    .css-a4imln {
+        display: none;
+    }
+    .box5-btn {
+        display: none;
+    }
+    .box5-titles {
+        width: 100%;
+    }
+    .box5-title-1, .box5-title-2 {
+        width: 100%;
+        text-align: center;
+    }    
+    .half-block-absolute {
+        display: flex !important;
+        gap: 10px !important;
+        left: -150px !important;
+        bottom: -50px !important;
+    }
+    .new-bid {
+        display: flex;
+        right: -150px;
+    }
+}
+@media screen and (max-width: 600px) {
+    .Box5 {
+        gap: 25px;
+    }
+    .box5-images {
+        display: none;
+    }
+    .css-a4imln {
+        display: block;
+    }
+    .box5-btn {
+        display: flex;
+        align-self: center;
+    }
+    .box5-title-1, .box5-title-2 {
+        font-size: 28px;
+    }
+}
+@media screen and (max-width: 450px) {
+    .Box5 {
+        padding: 75px 25px 40px 25px;
+    }
+}

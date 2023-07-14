@@ -1,0 +1,120 @@
+.CreatorsCard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    border-radius: 25px;
+    box-shadow: 30px 15px 80px 0px rgba(191, 191, 191, 0.60);
+}
+.creatorsCard-bg {
+    width: 100%;
+    height: 200px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.creatorsCard-avatar {
+    position: absolute;
+    bottom: -63px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.creatorsCard-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    padding: 75px 15px 25px 15px;
+}
+.creatorsCard-title-1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+}
+.creatorsCard-checkMark {
+    width: 21px;
+    height: 20px;
+}
+.cratorsCard-stats {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5px;
+}
+.creatorsCard-stat-title-1 {
+    color: #141416;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+}
+.creatorsCard-stat-title-2 {
+    color: #828282;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+.creatorsCard-images-list {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+}
+.creatorsCard-image-item {
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    font-family: 'Urbanist', sans-serif;
+    font-size: 19.862px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 750px) {
+    .creatorsCard-image-item {
+        width: 75px;
+        height: 75px;
+    }
+    .creatorsCard-bg {
+        height: 150px;
+    }
+}
+@media screen and (max-width: 600px) {
+    .creatorsCard-image-item {
+        width: 100px;
+        height: 100px;
+    }
+    .creatorsCard-bg {
+        height: 200px;
+    }
+}
+@media screen and (max-width: 370px) {
+    .creatorsCard-image-item {
+        width: 75px;
+        height: 75px;
+    }
+    .creatorsCard-bg {
+        height: 150px;
+    }
+}

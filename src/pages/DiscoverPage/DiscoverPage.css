@@ -1,0 +1,53 @@
+.Discover {
+    display: flex;
+    flex-direction: column;
+}
+.discover-content {
+    padding: 75px 65px 75px 65px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+.discover-title {
+    width: 100%;
+    text-align: center;
+    color: #141416;
+    font-size: 45px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+.load-btn {
+    width: 20%;
+    padding: 10px 18px 10px 18px;
+    background-color: #F9F9F9;
+    outline: 2px solid #141416;
+    border-radius: 13px;
+    font-family: 'Manrope', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    color: #1A202C;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+.load-btn:hover {
+    background-color: #e7e7e7;
+}
+
+@media screen  and (max-width: 550px) {
+    .load-btn {
+        width: 50%;
+    }
+}
+@media screen  and (max-width: 450px) {
+    .discover-content {
+        padding: 75px 25px 75px 25px;
+    }
+    .discover-title {
+        font-size: 34px;
+    }
+    .load-btn {
+        width: 100%;
+    }
+}

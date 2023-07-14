@@ -1,0 +1,13 @@
+.GoBack {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+}
+.GoBack-title {
+    color: #23262F;
+    font-size: 31.063px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    line-height: 27.611px;
+}
